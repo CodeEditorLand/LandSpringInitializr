@@ -169,9 +169,9 @@
 	"devDependencies": {
 		"@types/fs-extra": "11.0.4",
 		"@types/glob": "8.1.0",
-		"@types/lodash": "4.17.15",
+		"@types/lodash": "4.17.16",
 		"@types/md5": "2.3.5",
-		"@types/node": "22.13.4",
+		"@types/node": "22.13.9",
 		"@types/xml2js": "0.4.14",
 		"glob": "11.0.1",
 		"ts-loader": "9.5.2"
