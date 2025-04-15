@@ -1,29 +1,7 @@
 {
 	"name": "@codeeditorland/spring-initializr",
 	"displayName": "Spring Initializr Java Support",
-	"version": "0.0.1",
-	"private": false,
 	"description": "A lightweight extension based on Spring Initializr to generate quick start Spring Boot Java projects.",
-	"keywords": [
-		"codeeditorland",
-		"land",
-		"playform"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandSpringInitializr#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandSpringInitializr/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandSpringInitializr.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "Source 🖋️ Open 👐🏻",
-		"email": "Source/Open@Editor.Land",
-		"url": "HTTPS://Editor.Land"
-	},
-	"type": "module",
 	"main": "./dist/extension",
 	"scripts": {
 		"compile": "webpack --mode development",
@@ -199,9 +177,6 @@
 		"@types/xml2js": "0.4.14",
 		"glob": "11.0.1",
 		"ts-loader": "9.5.2"
-	},
-	"publishConfig": {
-		"access": "public"
 	},
 	"icon": "resources/logo.png",
 	"aiKey": "05fb8871-fbf0-488f-8453-a74cf0ca9b93",
