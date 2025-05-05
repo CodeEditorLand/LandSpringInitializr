@@ -1,26 +1,19 @@
 {
-	"compilerOptions": {
-		"baseUrl": "./",
-		"lib": [
-			"es6"
-		],
-		"module": "commonjs",
-		"noImplicitReturns": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"outDir": "Target",
-		"rootDir": "src",
-		"sourceMap": true,
-		"target": "es6"
-	},
-	"exclude": [
-		"node_modules",
-		".vscode-test"
-	],
-	"extends": "@playform/build/tsconfig",
-	"include": [
-		"src",
-		"src",
-		"src"
-	]
+    "compilerOptions": {
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "module": "commonjs",
+        "target": "es6",
+        "outDir": "out",
+        "lib": [
+            "es6"
+        ],
+        "sourceMap": true,
+        "rootDir": "src"
+    },
+    "exclude": [
+        "node_modules",
+        ".vscode-test"
+    ]
 }
